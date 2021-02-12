@@ -126,186 +126,20 @@
                 </div> 
             </div> 
             <div class="owl-carousel owl-theme">
+                @foreach ($anime_emision as $anime)
                 <div class="item popular-item">
                     <div class="thumb">
-                        <img src="{{ $anime_1['image_url'] }}" alt="Portada" style="height: 350px;">
+                        <img src="{{ $anime['image_url'] }}" alt="Portada" style="height: 350px;">
                         <div class="text-content">
-                            <h4 style="color: black"><b>{{ $anime_1['title'] }}</b></h4>
-                            <span style="color: black"><b>{{ $anime_1['episodes'] }} Capitulos</b></span>
+                            <h4 style="color: black"><b>{{ $anime['title'] }}</b></h4>
+                            <span style="color: black"><b>{{ $anime['episodes'] }} Capitulos</b></span>
                         </div>
                         <div class="plus-button">
-                            <a href="{{ $anime_1['url'] }}"><i class="fa fa-plus"></i></a>
+                            <a href="{{ $anime['url'] }}"><i class="fa fa-plus"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="item popular-item">
-                    <div class="thumb">
-                        <img src="{{ $anime_2['image_url'] }}" alt="Portada" style="height: 350px;">
-                        <div class="text-content">
-                            <h4 style="color: black"><b>{{ $anime_2['title'] }}</b></h4>
-                            <span style="color: black"><b>{{ $anime_2['episodes'] }} Capitulos</b></span>
-                        </div>
-                        <div class="plus-button">
-                            <a href="{{ $anime_2['url'] }}"><i class="fa fa-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item popular-item">
-                    <div class="thumb">
-                        <img src="{{ $anime_3['image_url'] }}" alt="Portada" style="height: 350px;">
-                        <div class="text-content">
-                            <h4 style="color: black"><b>{{ $anime_3['title'] }}</b></h4>
-                            <span style="color: black"><b>{{ $anime_3['episodes'] }} Capitulos</b></span>
-                        </div>
-                        <div class="plus-button">
-                            <a href="{{ $anime_3['url'] }}"><i class="fa fa-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item popular-item">
-                    <div class="thumb">
-                        <img src="{{ $anime_4['image_url'] }}" alt="Portada" style="height: 350px;">
-                        <div class="text-content">
-                            <h4 style="color: black"><b>{{ $anime_4['title'] }}</b></h4>
-                            <span style="color: black"><b>{{ $anime_4['episodes'] }} Capitulos</b></span>
-                        </div>
-                        <div class="plus-button">
-                            <a href="{{ $anime_4['url'] }}"><i class="fa fa-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item popular-item">
-                    <div class="thumb">
-                        <img src="{{ $anime_5['image_url'] }}" alt="Portada" style="height: 350px;">
-                        <div class="text-content">
-                            <h4 style="color: black"><b>{{ $anime_5['title'] }}</b></h4>
-                            <span style="color: black"><b>{{ $anime_5['episodes'] }} Capitulos</b></span>
-                        </div>
-                        <div class="plus-button">
-                            <a href="{{ $anime_5['url'] }}"><i class="fa fa-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item popular-item">
-                    <div class="thumb">
-                        <img src="{{ $anime_6['image_url'] }}" alt="Portada" style="height: 350px;">
-                        <div class="text-content">
-                            <h4 style="color: black"><b>{{ $anime_6['title'] }}</b></h4>
-                            <span style="color: black"><b>{{ $anime_6['episodes'] }} Capitulos</b></span>
-                        </div>
-                        <div class="plus-button">
-                            <a href="{{ $anime_6['url'] }}"><i class="fa fa-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item popular-item">
-                    <div class="thumb">
-                        <img src="{{ $anime_7['image_url'] }}" alt="Portada" style="height: 350px;">
-                        <div class="text-content">
-                            <h4 style="color: black"><b>{{ $anime_7['title'] }}</b></h4>
-                            <span style="color: black"><b>{{ $anime_7['episodes'] }} Capitulos</b></span>
-                        </div>
-                        <div class="plus-button">
-                            <a href="{{ $anime_7['url'] }}"><i class="fa fa-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item popular-item">
-                    <div class="thumb">
-                        <img src="{{ $anime_8['image_url'] }}" alt="Portada" style="height: 350px;">
-                        <div class="text-content">
-                            <h4 style="color: black"><b>{{ $anime_8['title'] }}</b></h4>
-                            <span style="color: black"><b>{{ $anime_8['episodes'] }} Capitulos</b></span>
-                        </div>
-                        <div class="plus-button">
-                            <a href="{{ $anime_8['url'] }}"><i class="fa fa-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item popular-item">
-                    <div class="thumb">
-                        <img src="{{ $anime_9['image_url'] }}" alt="Portada" style="height: 350px;">
-                        <div class="text-content">
-                            <h4 style="color: black"><b>{{ $anime_9['title'] }}</b></h4>
-                            <span style="color: black"><b>{{ $anime_9['episodes'] }} Capitulos</b></span>
-                        </div>
-                        <div class="plus-button">
-                            <a href="{{ $anime_9['url'] }}"><i class="fa fa-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item popular-item">
-                    <div class="thumb">
-                        <img src="{{ $anime_10['image_url'] }}" alt="Portada" style="height: 350px;">
-                        <div class="text-content">
-                            <h4 style="color: black"><b>{{ $anime_10['title'] }}</b></h4>
-                            <span style="color: black"><b>{{ $anime_10['episodes'] }} Capitulos</b></span>
-                        </div>
-                        <div class="plus-button">
-                            <a href="{{ $anime_10['url'] }}"><i class="fa fa-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item popular-item">
-                    <div class="thumb">
-                        <img src="{{ $anime_11['image_url'] }}" alt="Portada" style="height: 350px;">
-                        <div class="text-content">
-                            <h4 style="color: black"><b>{{ $anime_11['title'] }}</b></h4>
-                            <span style="color: black"><b>{{ $anime_11['episodes'] }} Capitulos</b></span>
-                        </div>
-                        <div class="plus-button">
-                            <a href="{{ $anime_11['url'] }}"><i class="fa fa-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item popular-item">
-                    <div class="thumb">
-                        <img src="{{ $anime_12['image_url'] }}" alt="Portada" style="height: 350px;">
-                        <div class="text-content">
-                            <h4 style="color: black"><b>{{ $anime_12['title'] }}</b></h4>
-                            <span style="color: black"><b>{{ $anime_12['episodes'] }} Capitulos</b></span>
-                        </div>
-                        <div class="plus-button">
-                            <a href="{{ $anime_12['url'] }}"><i class="fa fa-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item popular-item">
-                    <div class="thumb">
-                        <img src="{{ $anime_13['image_url'] }}" alt="Portada" style="height: 350px;">
-                        <div class="text-content">
-                            <h4 style="color: black"><b>{{ $anime_13['title'] }}</b></h4>
-                            <span style="color: black"><b>{{ $anime_13['episodes'] }} Capitulos</b></span>
-                        </div>
-                        <div class="plus-button">
-                            <a href="{{ $anime_13['url'] }}"><i class="fa fa-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item popular-item">
-                    <div class="thumb">
-                        <img src="{{ $anime_14['image_url'] }}" alt="Portada" style="height: 350px;">
-                        <div class="text-content">
-                            <h4 style="color: black"><b>{{ $anime_14['title'] }}</b></h4>
-                            <span style="color: black"><b>{{ $anime_14['episodes'] }} Capitulos</b></span>
-                        </div>
-                        <div class="plus-button">
-                            <a href="{{ $anime_14['url'] }}"><i class="fa fa-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item popular-item">
-                    <div class="thumb">
-                        <img src="{{ $anime_15['image_url'] }}" alt="Portada" style="height: 350px;">
-                        <div class="text-content">
-                            <h4 style="color: black"><b>{{ $anime_15['title'] }}</b></h4>
-                            <span style="color: black"><b>{{ $anime_15['episodes'] }} Capitulos</b></span>
-                        </div>
-                        <div class="plus-button">
-                            <a href="{{ $anime_15['url'] }}"><i class="fa fa-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
+                @endforeach
             </div>
         </div>
     </section>
