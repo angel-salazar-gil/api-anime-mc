@@ -8,17 +8,17 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href={{ asset('css/bootstrap.min.css') }}>
-        <link rel="stylesheet" href={{ asset('css/bootstrap-theme.min.css') }}>
-        <link rel="stylesheet" href={{ asset('css/fontAwesome.css') }}>
-        <link rel="stylesheet" href={{ asset('css/hero-slider.css') }}>
-        <link rel="stylesheet" href={{ asset('css/owl-carousel.css') }}>
-        <link rel="stylesheet" href={{ asset('css/datepicker.css') }}>
-        <link rel="stylesheet" href={{ asset('css/templatemo-style.css') }}>
+        <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/bootstrap-theme.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/fontAwesome.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/hero-slider.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/owl-carousel.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/datepicker.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/templatemo-style.css') }}">
 
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-        <script src={{ asset('js/vendor/modernizr-2.8.3-respond-1.4.2.min.js') }}></script>
+        <script src="{{ asset('js/vendor/modernizr-2.8.3-respond-1.4.2.min.js') }}"></script>
 <!--
 	Venue Template
 	http://www.templatemo.com/tm-522-venue
@@ -35,7 +35,7 @@
                         <button id="primary-nav-button" type="button">Menu</button>
                         <a href="home">
                             <div class="logo">
-                                <img href="home" src={{ asset('img/logo.png') }} alt="Venue Logo">
+                                <img href="home" src="{{ asset('img/logo.png') }}" alt="Venue Logo">
                             </div>
                         </a>
                         <nav id="primary-nav" class="dropdown cf">
@@ -213,7 +213,7 @@
                 <div class="col-md-5">
                     <div class="about-veno">
                         <div class="logo">
-                            <img src={{ asset('img/footer_logo.png') }} alt="Venue Logo">
+                            <img src="{{ asset('img/footer_logo.png') }}" alt="Venue Logo">
                         </div>
                         <p>Mauris sit amet quam congue, pulvinar urna et, congue diam. Suspendisse eu lorem massa. Integer sit amet posuere tellus, id efficitur leo. In hac habitasse platea dictumst.</p>
                         <ul class="social-icons">
@@ -280,10 +280,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" type="text/javascript"></script>
     <script>window.jQuery || document.write('<script src={{ asset('js/vendor/jquery-1.11.2.min.js') }}><\/script>')</script>
 
-    <script src={{ asset('js/vendor/bootstrap.min.js') }}></script>
+    <script src="{{ asset('js/vendor/bootstrap.min.js') }}"></script>
     
-    <script src={{ asset('js/datepicker.js') }}></script>
-    <script src={{ asset('js/plugins.js') }}></script>
-    <script src={{ asset('js/main.js') }}></script>
+    <script src="{{ asset('js/datepicker.js') }}"></script>
+    <script src="{{ asset('js/plugins.js') }}"></script>
+    <script src="{{ asset('js/main.js') }}"></script>
 </body>
 </html>
